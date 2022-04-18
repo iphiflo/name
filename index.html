@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <title>Project 120</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="Style.css">
+    <body>
+        <center>
+            <h4 class="heading">CASE STUDY BETWEEN GOOGLE LENS AND MOBILENET</h4>
+            <br><br>
+            <span id="ed">GOOGLE LENS</span>
+            <img id="go" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Google_Lens_-_new_logo.png/768px-Google_Lens_-_new_logo.png">
+            <br>
+            <h5 class="heading">VS</h5>
+            <h3 class="btn btn-primary">MOBILENET</h3>
+            <hr>
+            <br> <br>
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                   <li class="col-sm-4 col-xs-12"> 
+                       <b> Test Image - </b>
+                       <img class="img-responsive" src="https://images.unsplash.com/photo-1589365278144-c9e705f843ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                   </li>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">GOOGLE LENS</b>- 
+                       <span class="red"> Waterbottle </span>
+                   </h5>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">MOBILE NET</b>- 
+                       <span class="red"> Waterbottle </span>
+                   </h5>
+                   <div class="mini_result" class="col-xs-12">
+                     <h4>Result - </h4>
+                     <hr>
+                     <h4>DRAW</h4>
+                   </div>
+                </div>
+            </ol>
+
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                   <li class="col-sm-4 col-xs-12"> 
+                       <b> Test Image - </b>
+                       <img class="img-responsive" src="https://images.unsplash.com/photo-1552346154-21d32810aba3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                   </li>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">GOOGLE LENS</b>- 
+                       <span class="red"> Air Jordan Shoes </span>
+                   </h5>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">MOBILE NET</b>- 
+                       <span class="red"> Running Shoes </span>
+                   </h5>
+                   <div class="mini_result" class="col-xs-12">
+                     <h4>Result - </h4>
+                     <hr>
+                     <h4> DRAW</h4>
+                   </div>
+                </div>
+            </ol>
+
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                   <li class="col-sm-4 col-xs-12"> 
+                       <b> Test Image - </b>
+                       <img class="img-responsive" src="https://images.unsplash.com/photo-1545127398-14699f92334b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80">
+                   </li>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">GOOGLE LENS</b>- 
+                       <span class="red"> Headphones</span>
+                   </h5>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">MOBILE NET</b>- 
+                       <span class="red"> Television </span>
+                   </h5>
+                   <div class="mini_result" class="col-xs-12">
+                     <h4>Result - </h4>
+                     <hr>
+                     <h4>Google Lens</h4>
+                   </div>
+                </div>
+            </ol>
+
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                   <li class="col-sm-4 col-xs-12"> 
+                       <b> Test Image - </b>
+                       <img class="img-responsive" src="https://images.unsplash.com/photo-1536349788264-1b816db3cc13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80">
+                   </li>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">GOOGLE LENS</b>- 
+                       <span class="red"> Bed</span>
+                   </h5>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">MOBILE NET</b>- 
+                       <span class="red"> Monitor </span>
+                   </h5>
+                   <div class="mini_result" class="col-xs-12">
+                     <h4>Result - </h4>
+                     <hr>
+                     <h4>Google Lens</h4>
+                   </div>
+                </div>
+            </ol>
+
+            <ol>
+                <div class="test_image_and_result col-xs-12">
+                   <li class="col-sm-4 col-xs-12"> 
+                       <b> Test Image - </b>
+                       <img class="img-responsive" src="https://images.unsplash.com/photo-1588090644556-14707d0e886a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                   </li>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">GOOGLE LENS</b>- 
+                       <span class="red"> Brown Teddy Bear</span>
+                   </h5>
+
+                   <h5 class="col-sm-4 col-xs-12" >
+                       Output on <b class="b">MOBILE NET</b>- 
+                       <span class="red"> Shower Curtain</span>
+                   </h5>
+                   <div class="mini_result" class="col-xs-12">
+                     <h4>Result - </h4>
+                     <hr>
+                     <h4>Google Lens</h4>
+                   </div>
+                </div>
+            </ol>
+            <br>
+            <br>
+            <button class=" btn btn-primary final">
+                <h4 >
+                    I have tested 5 images.
+                </h4>
+                <br>
+                <span class="note">GOOGLE LENS has predicted 3 of them  more accurately. And MOBILENET less accurately.        So according to my case study GOOGLE Lens is more accurate.</span>
+            </button>
+        </center>
+        <br><br>
+        <div class="copy_right_footer">
+           Developed by - Iphigenia
+        </div>
+    </body>
+</html>
